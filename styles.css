@@ -1,0 +1,147 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #1c1c1e;
+  color: #e0e0e0;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #00bcd4;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  background-color: #292929;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  color: #ffffff;
+  font-size: 2em;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: #ffffff;
+  font-size: 1.1em;
+}
+
+.hero {
+  background-color: #333333;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #00bcd4;
+  color: #1c1c1e;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.1em;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0097a7;
+}
+
+/* Sections */
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.sobre-mi,
+.habilidades,
+.proyectos,
+.contacto {
+  background-color: #252525;
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+/* Skills Section */
+.skills-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.skill-item {
+  background-color: #333333;
+  padding: 20px;
+  border-radius: 5px;
+  flex: 1;
+  min-width: 200px;
+  max-width: 300px;
+}
+
+.skill-item h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #00bcd4;
+}
+
+/* Projects Section */
+.proyecto-item {
+  background-color: #333333;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.proyecto-item h3 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  color: #00bcd4;
+}
+
+footer {
+  padding: 20px;
+  background-color: #292929;
+  text-align: center;
+}
+
+footer a {
+  color: #00bcd4;
+  text-decoration: underline;
+}
+
+footer p {
+  font-size: 1.1em;
+  margin-top: 10px;
+}
